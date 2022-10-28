@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="xiao.css">
+</head>
+<body>
+    <body>
+        <!-- 页面版心 -->
+        <div class="home">
+            <!-- 首页内容content -->
+            <div class="content">
+                <div class="stars"></div>
+                <img class="bgc" src="img/2.jpg" width="100%" alt="">
+                <h1 class="title"><a href='https://space.bilibili.com/26139491?spm_id_from=333.337.0.0' target="_blank">假美食PO主</a></h1>
+                <h3 class="titles">的介绍网站</h3>
+                <img class="icon" src="img/相机.png" alt="">
+                <!-- 右上角的三个超链接 -->
+                <div class='ribbon'>
+                    <a href='#'><span>介绍</span></a>
+                    <a href='ind2.html' target="_blank"><span>摄影</span></a>
+                    <a href='boke.html' target="_blank"><span>美食</span></a>
+    
+                </div>
+    
+            </div>
+             <!-- box盒子排列部分 -->
+            <div class="icons">
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="img/5.jpg" alt="">
+                    <span>假美食PO主,外号妞子</span>
+                </div>
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="img/6.jpg" alt="">
+                    <span>一位出生在德国的中国小姑娘</span>
+                </div>
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="img/7.jpg" alt="">
+                    <span>和我们大多数人一样,爱上数学课睡觉</span>
+                </div>
+                <div class="icons_items">
+                    <img class="icons_items_imgs" src="img/8.jpg" alt="">
+                    <span>高中毕业后又留学与英国,开启了自己的大学生活</span>
+                </div>
+            </div>、
+            <!-- 大图展示部分 -->
+            <div class="introduce">
+                <div class="introduce_item">
+                    <img class="introduce_item_img" src="img/9.jpg" alt="">
+                    <span class="introduce_item_title">英国爱丁堡的天气总是如此阴沉,以前只是在山脚下的城堡游玩过,第一次和朋友爬上这座,虽然一级回来一周了,但还是念念不忘太美了,话说英国有什么适合爬山的地方嘛求推荐</span>
+    
+                </div>
+                <div class="introduce_item">
+    
+                    <span class="introduce_item_titles">最近收到了新经典专门寄来的书，读完了编辑们青碧写的信华人书记推荐，非常感动，每本都是按照我的口味精心挑选出来的😭而且还有签名版q(≧▽≦q)</span>
+                    <img class="introduce_item_img" src="img/10.jpg" alt="">
+                </div>
+                <div class="introduce_item">
+                    <img class="introduce_item_img" src="img/11.jpg" alt="">
+                    <span class="introduce_item_title">新的一年闲着去剪个头发，理发师问我怎么剪，我就说：随便 短点就行 短发洗头发方便 结果没想到那么短...不想出门了😇（不过不得不说 洗头确实方便</span>
+                </div>
+                <div class="introduce_item">
+                    <span class="introduce_item_titles">理发前还拍了个照(╬▔皿▔)╯，竟然还在笑，等理完发就笑不出来了</span>
+                    <img class="introduce_item_img" src="img/12.jpg" alt="">
+                </div>
+            </div>
+            <!-- 背景音乐，暂时没加 -->
+            <audio autoplay="autoplay" id="audio" loop="loop">
+                    <source src="" type="audio/MP3">
+                   
+            </audio>
+             <!-- 右下角的旋转小组件 -->
+            <img class="music_img" src="img/相机.png" alt="">
+        </div>
+    
+    </body>
+    <script>
+        // 背景音乐的JS脚本，检测到界面打开就会播放音乐，audio属性对于音乐
+        let mucics = document.getElementById('audio')
+        document.body.addEventListener('mousemove', function() {
+            setTimeout(() => {
+                mucics.play();
+            }, 2000);
+        }, false);
+    </script>
+    
+    </html>
+    
+</body>
+</html>
